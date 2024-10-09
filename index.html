@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en" , lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>EchoBeatz</title>
+        <link rel="stylesheet" href="style.css">
+        </head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="stylish_logo_for_EchoBeats-removebg-preview.png" alt="EchoBeatz"> EchoBeatz</li>
+            <li>Home</li>
+            <li>About</li>
+            <li class="search-bar">
+                <input type="text" placeholder="Search">
+            </li>
+        </ul>
+    </nav>
+
+    
+
+    <div class="container">
+        <div class="songList">
+            <div class="pl-list">
+                <img id="pl-cover" src="pl-cover.png"> 
+                <h1 class="playlist">My Playlist Song</h1>
+                <div style="display: flex;" class="playlist-controls">
+                    <i class="far fa-play-circle" id="playlistPlay"></i>
+                    <i class="fa fa-download"></i>
+                    <i class="fa fa-ellipsis-v"></i>
+                </div>
+            </div>
+            
+            <div class="songItemContainer">
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Music 1</span>
+                    <span class="songlistplay"><span class="timestamp">03:56 <i id="0" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Music 2</span>
+                    <span class="songlistplay"><span class="timestamp">02:45 <i id="1" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Music 3</span>
+                    <span class="songlistplay"><span class="timestamp">03:55 <i id="2" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Music 4</span>
+                    <span class="songlistplay"><span class="timestamp">05:59 <i id="3" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Music 5</span>
+                    <span class="songlistplay"><span class="timestamp">04:44 <i id="4" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Music 6</span>
+                    <span class="songlistplay"><span class="timestamp">02:28 <i id="5" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Music 7</span>
+                    <span class="songlistplay"><span class="timestamp">03:41 <i id="6" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Music 8</span>
+                    <span class="songlistplay"><span class="timestamp">05:09 <i id="7" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Music 9</span>
+                    <span class="songlistplay"><span class="timestamp">03:33 <i id="8" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                
+            </div>
+        </div>
+        <div class="songBanner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <i class="fas fa-2x fa-random"></i>
+            <i class="fas fa-3x fa-step-backward" id="previous"></i>
+            <i class="far fa-3x fa-play-circle" id="masterPlay"></i>
+            <i class="fas fa-3x fa-step-forward" id="next"></i>
+            <i class="fas fa-2x fa-redo"></i>
+        </div>
+        <div class="songInfo">
+            <img src="playing.gif" width="42px" alt="" id="gif"> 
+            <span id="masterSongName">Angel by Shaggy</span>
+        </div>
+    
+        <div class="songInfo">
+            <img src="playing.gif" width="42px" alt="" id="gif"> <span id="masterSongName"></span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/26504e4a1f.js" crossorigin="anonymous"></script>
+</body>
+</html>
